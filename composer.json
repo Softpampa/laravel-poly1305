@@ -9,6 +9,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
+        "softpampa/php-poly1305": "dev-master",
         "illuminate/support": "4.2.*"
     },
     "autoload": {
