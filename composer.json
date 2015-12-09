@@ -1,0 +1,23 @@
+{
+    "name": "softpampa/poly1305-laravel",
+    "description": "Laravel - Poly1305 Facades",
+    "authors": [
+        {
+            "name": "Madson Verdi Junior",
+            "email": "madson.verdi@softpampa.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Softpampa\\Poly1305Laravel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
