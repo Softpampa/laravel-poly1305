@@ -33,7 +33,7 @@ class ServiceProvider extends BaseServiceProvider
 
         $this->app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Poly1305', 'Poly1305\Poly1305');
+            $loader->alias('Poly1305', 'Softpampa\Poly1305Laravel\Facades\Poly1305');
         });
     }
 
