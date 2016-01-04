@@ -1,6 +1,6 @@
 <?php
 
-namespace Softpampa\Poly1305Laravel;
+namespace Softpampa\Poly1305Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
